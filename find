@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title> FindThePrecious </title>
+  </head>
+  
+  <body>
+      <header> 
+          <h1>FindThePrecious</h1>
+        <nav>
+           <ul>
+            <li><a href="#Fellows">Fellows</a></li>
+            <li><a href="#Thering">The Ring</a></li>
+            <li><a href="#Getmyreward">Get my reward</a></li>
+            <li><a href="#Besthunters">Best hunters</a></li>
+            <li><a href="#Jointhearmy">Join the army</a></li>
+            <li><a href="#Contactus">Contact us</a></li>
+           </ul>
+        </nav>
+     </header>
+    
+<img src="https://via.placeholder.com/140x140" alt="">
+
+      <section>           
+        <h2 id="Fellows"> Fellows wanted dead (or alive if you xant to eat them later)</h2>
+          <ul>
+             <li> Most wanted</li>
+             <li> Most dangerous</li>
+             <li> Already captured</li>
+          </ul>
+        
+        <div>
+          <img src="https://via.placeholder.com/140x140" alt=""><p>The wizard Small description...</p>
+        </div>
+        
+        <div>
+          <img src="https://via.placeholder.com/140x140?text=DEAD" alt=""><p>Hobbit #3 Small description..</p>
+        </div>
+        
+        <div>
+          <img src="https://via.placeholder.com/140x140" alt=""><p> Yummy Dwarf Small description</p>
+        </div>
+     </section>
+    
+     <hr/>
+    
+     <section>
+      <h2 id="Getmyreward"> I have captured one of them, how to get my reward?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut <br/> commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.        Aliquam <br/>egestas, velit at condimentum placerat, sem sapien laoreet mauris, dictum porttitor</p>
+
+        <img src="https://via.placeholder.com/140x140" alt="">
+        <button type="button">Contact us</button>
+     </section>  
+
+<hr/>
+           
+      <section>
+          <h2 id="Besthunters"> Best hunters</h2>
+        
+        <div>
+          <img src="https://via.placeholder.com/70x70" alt=""><p>ElvesKiller22 <br/> 2 Captures - Profile</p><button type="button">Like 68k</button>
+        </div>
+          
+        <div>
+          <img src="https://via.placeholder.com/70x70" alt=""><p>Goblin45<br/> 1 Captures - Profile</p><button type="button">Like 68k</button>     
+        </div>
+    
+       </section>
+    
+          <hr/>
+          
+       <section>
+           <h2 id="Thering">About the ring</h2>         
+            <div><h4>Ring Capabilities</h4></div>
+            <div><p>What can our master Sauron do with the ring ?</p></div>
+            
+            <table>
+              <thead>
+                  <tr>
+                    <th> Feature </th>
+                    <th> Description </th>
+                  </tr>
+              </thead>
+              
+               <tbody>
+              <tr>
+                  <td>Main</td>
+                  <td>One ring to rules them all</td>
+              </tr>
+              <tr>
+                  <td> Invisibility</td>
+                  <td> You can't see me</td>
+              </tr>
+              <tr>
+                  <td> Power</td>
+                  <td> Destroy the world</td>
+              </tr>
+            </tbody>
+            </table>
+                   
+          <div><h4>Why the ring is awesome</h4></div>
+          <div><p>My preciooouusss ! Hrk, Hrk, we want our preecioooouuusss !!<br/> Gollum</p></div>
+<img src="https://via.placeholder.com/110x110" alt="">      
+          </section>
+    
+        <hr/>
+    
+        <section>
+          <h2 id="Jointhearmy">Join Mordor Army, we need you !</h2>
+            <div><img src="https://via.placeholder.com/140x140" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut <br/> commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Aliquam <br/>egestas, velit at condimentum placerat, sem sapien laoreet mauris, dictum porttitor</p>
+            <button type="button">More info on SauronRulesThemAll.com</button></div>
+        </section>
+    
+    <hr/>
+
+      <h2 id="Contactus">Contact us</h2>
+
+   <form action="/action_page.php" method="get" target="_blank"> 
+      <label for="Email">Your email address :</label> 
+      <input type="text" id="Email" placeholder="email@example.com"/>
+      
+      <label for="Name">Your Name :</label> 
+      <input type="text" id="Name" placeholder="Name"/>
+     
+<select>
+      <option>I have seen one of them</option>
+      <option>I have captured one of them</option>
+      <option>I want to join your army</option>
+</select>
+    
+      <label id="message">Your message :</label>
+      <textarea placeholder = "Type your message here..." ></textarea>
+      <input type="submit" value="submit"/>
+    </form>
+
+    
+    <hr/>
+
+    <footer>      
+      <div>
+        <p> About us<br/></p>
+        <a href="#Fellows">Fellows<br/></a>
+        <a href="#Jointhearmy">Join our army</a>       
+      </div>
+      
+      <div>
+        <p> FAQ <br/></p>
+        <p>Reward conditions<br/></p>
+        <p>Legal mentions</p>        
+      </div>
+      
+      <div>
+        <p> Sauron4Ever.com<br/></p>
+        <p>Follow him also on twitter</p>        
+      </div>
+    </footer> 
+   
+
+</html>
