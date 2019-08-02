@@ -1,0 +1,236 @@
+/**TITRE**/
+header {
+ background: #58564D ;
+  color: #fff ;
+ border:  #58564D  ;
+  margin-bottom: 1px ;}
+
+/** MENU PRINCIPAL **/
+nav ul
+{
+   text-align: center;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 18px;
+    font-size: 24px;
+}
+
+header, ul
+{
+  display: flex;
+  justify-content: center;
+}
+
+/**P**/
+.gullum
+{
+ color:#9F9D92;
+ position:absolute;
+ margin-left:350px;
+ top: 1246px;
+ font-size:20px;
+}
+.army
+{
+  font-size:20px;
+  float:right;
+  margin-right: 870px;
+}
+/** IMAGE 1.2.3 **/
+.img1
+{
+  
+}
+.img2
+{
+  margin-left:90%;
+  text-align: right;
+  position : absolute;
+  top: 600px;
+	right: 55%;
+	width : 140px;
+	height : 140px;
+}
+.img3
+{
+  position : absolute;
+  top:1200px;
+	right:65%;
+  border-radius:50px;
+}
+/** BOUTON **/
+.bouton
+{
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  right: 093px;
+}
+.bouton3
+{
+    margin-left:400px;
+}
+
+/** IMAGE GANDALF **/
+.gandalf
+{
+    background-image: url("https://image.noelshack.com/fichiers/2018/33/5/1534534823-gandalf-miniature.png");
+    opacity:0.8;
+    width:220px;
+    height:220px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+h3
+{
+    margin:auto;
+    margin-top:10px;
+    background-color: white;
+    color:black;
+    width:110px;
+    height:45px;
+    font-size: 20px;
+    border:1px white solid;
+    border-radius: 6px;
+}
+h3 span
+{
+    color:orange;
+}
+.gandalf:hover
+{
+    background-image: url("https://image.noelshack.com/fichiers/2018/33/5/1534534823-gandalf-miniature.png");
+    opacity:1;
+}
+.gandalf:hover h3{
+    display: none;
+     display: inline-block;
+   float: left; 
+}
+.gandalf:hover h4{
+    font-size:20px;
+    margin-top:180px;
+    margin-left:60px;  
+}
+.h4g{
+    color:white;
+    width:25px;
+    margin-top:65px;
+    margin-left:40px;
+    font-size:40px;
+}
+
+/** IMG HOBBII **/
+.hobbit
+{
+   display: inline-block;
+  background-image: url("https://via.placeholder.com/140x140");
+  width:220px;
+  height:220px;  
+  background-size: cover; 
+}
+
+/** IMG YUMMY **/
+.yummy
+{
+  background-image: url("https://via.placeholder.com/140x140");
+  width:220px;
+  height:220px;  
+    background-size: cover;
+     display: inline-block;
+}
+
+/** POSITIONNEMT IMG GANDALF, HOBBI, YUMMY **/
+.hobbit
+{
+  position:absolute;
+  text-align: center;
+   top: 355px;
+  right: 850px;
+}
+
+.yummy
+{
+  position:absolute;
+   top: 355px;
+  right: 610px;
+}
+ /** JOUEUR **/
+.hunter
+{
+  text-align:left;
+}
+.nameJ
+{
+    font-size:15px;
+  margin-right:1300px;
+  float:right;
+  text-align:center;
+}
+.bouton1
+{
+   margin-left:90px;
+  margin-right:1350px;
+  float:right;
+}
+
+.hunter2
+{
+  position:absolute;
+  text-align: center;
+  top: 830px;
+  right: 1000px;
+}
+.nameJ2
+{
+  font-size:15px;
+  float:right;
+  margin-left:10px;
+}
+.bouton2
+{
+  margin-left:100px;
+}
+
+/*tableau*/
+table {
+border: medium solid #000000;
+width: 50%;
+}
+td, th {
+border: thin solid #000000;
+width: 50%;
+text-align:center;
+}
+
+thead
+{
+  background-color: #767468;
+  color:white;
+  font-size:20px;
+}
+
+/** formulaire **/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/** footer**/
+footer
+{
+ background: #58564D ;
+ color: #fff ;
+ border:  #58564D  ;
+ margin-bottom: 1px ;
+}
