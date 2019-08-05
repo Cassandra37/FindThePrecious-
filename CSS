@@ -75,8 +75,7 @@ header, ul
 }
 
 /** IMAGE GANDALF **/
-.gandalf
-{
+.gandalf{
     background-image: url("https://image.noelshack.com/fichiers/2018/33/5/1534534823-gandalf-miniature.png");
     opacity:0.8;
     width:220px;
@@ -84,8 +83,7 @@ header, ul
     display: inline-block;
     vertical-align: bottom;
 }
-h3
-{
+h3{
     margin:auto;
     margin-top:10px;
     background-color: white;
@@ -96,32 +94,56 @@ h3
     border:1px white solid;
     border-radius: 6px;
 }
-h3 span
-{
+h3 span{
     color:orange;
 }
-.gandalf:hover
+
+.gandalf:hover h3
 {
+    display: none;
+}
+.gandalf{
+    background-image: url("https://image.noelshack.com/fichiers/2018/33/5/1534534823-gandalf-miniature.png");
+    opacity:0.8;
+    width:220px;
+    height:220px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+h3{
+    margin:auto;
+    margin-top:10px;
+    background-color: white;
+    color:black;
+    width:110px;
+    height:45px;
+    font-size: 20px;
+    border:1px white solid;
+    border-radius: 6px;
+}
+h3 span{
+    color:orange;
+}
+.gandalf:hover{
     background-image: url("https://image.noelshack.com/fichiers/2018/33/5/1534534823-gandalf-miniature.png");
     opacity:1;
 }
 .gandalf:hover h3{
     display: none;
-     display: inline-block;
-   float: left; 
 }
 .gandalf:hover h4{
     font-size:20px;
     margin-top:180px;
-    margin-left:60px;  
+    margin-left:60px;
 }
-.h4g{
+h4{
     color:white;
     width:25px;
     margin-top:65px;
     margin-left:40px;
     font-size:40px;
 }
+
 
 /** IMG HOBBII **/
 .hobbit
